@@ -1,0 +1,49 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #cecccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background: #fdecef;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+#weather-form {
+  margin-bottom: 20px;
+}
+
+#weather-form input {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 200px;
+}
+
+#weather-form button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  background: #007BFF;
+  color: white;
+  cursor: pointer;
+}
+
+#weather-form button:hover {
+  background: #0056b3;
+}
+
+#weather-result {
+  margin-top: 20px;
+}
+
+#weather-result p {
+  margin: 5px 0;
+}
